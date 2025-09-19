@@ -202,7 +202,6 @@ max-width: 100%;}
     align-items: center;
     gap: 1rem;
     background: linear-gradient(to right, rgb(19, 25, 33));
-    padding: 1rem;
     height: 4rem;
     position: fixed;
     top:5rem;
@@ -302,4 +301,5 @@ max-width: 100%;}
     }
   
 /***********************************Button***************************/
+
 
