@@ -213,7 +213,7 @@ max-width: 100%;}
     
 
 .navbar .logo {
-      display: flex;
+      display: none;
       color: #fff;
       font-size: 22px;
       font-weight: bold;
@@ -230,12 +230,9 @@ max-width: 100%;}
       justify-content: center;
       align-items: center;
       gap: 2rem;
-     
-      transform: translate(-50%);
-      border-radius: 20px;
-      
       
     }
+   
    
 
 .nav-links a {
@@ -305,3 +302,4 @@ max-width: 100%;}
     }
   
 /***********************************Button***************************/
+
