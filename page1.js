@@ -1,9 +1,3 @@
-
-
-
-
-
-
 //export function toggleDropdown(event) {
 let dropdownsbtn=document.querySelectorAll('.dropdown-btn')
 dropdownsbtn.forEach(btn=>{
@@ -27,14 +21,20 @@ btn.addEventListener('click',(event)=>{
 })
 
 
-document.addEventListener('keydown', (event) => {
-  if (event.key === ' ') {
-    console.log('hello hitler');
-  }
-});
 
+/********************************************************************************** NAV SECTION******************************************** */
+const hamburger = document.querySelector(".hamburger");
+ 
+let navLinks = document.querySelector(".nav-links");
+ 
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active"); 
+  navLinks.classList.toggle("active");})
 
-
+ /*window.addEventListener("click", ()=> {
+      navLinks.classList.toggle("active");
+    });
+*/
 
 
 
