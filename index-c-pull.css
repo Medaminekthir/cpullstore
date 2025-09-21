@@ -202,6 +202,7 @@ max-width: 100%;}
     align-items: center;
     gap: 1rem;
     background: linear-gradient(to right, rgb(19, 25, 33));
+   
     height: 4rem;
     position: fixed;
     top:5rem;
@@ -211,18 +212,7 @@ max-width: 100%;}
     }
     
 
-.navbar .logo {
-      display: none;
-      color: #fff;
-      font-size: 22px;
-      font-weight: bold;
-      left:56rem;
-      position: relative;
-      
-      justify-content: center;
-      align-items: center;
-      
-    }
+
 
 .nav-links {
       display: flex;
@@ -231,7 +221,6 @@ max-width: 100%;}
       gap: 2rem;
       
     }
-   
    
 
 .nav-links a {
@@ -294,12 +283,54 @@ max-width: 100%;}
       visibility: visible;
     
     }
+
+  .hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.7rem;
+  height: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
  @media(max-width: 400px){
       .navbar{
         top: 5rem;
+        
+      }
+      .hamburger {
+        display: flex;
+      }
+      .nav-links{
+        display: flex;
+        margin-top: 5rem;
+        flex-direction: column;
+        width: 13rem;
+        background: #111;
+        opacity: 0;
+        gap: 1rem;
+        transition: opacity  0.5s ease;
+        border-radius: 20px;
+      
+      }
+       .nav-links .dropdown-btn{
+        font-size: 1.5em;
+       }
+      .nav-links.active{
+        opacity: 1;
+        
       }
     }
   
-/***********************************Button***************************/
-
-
+/*********************************** HAMBURGER Button***************************/
