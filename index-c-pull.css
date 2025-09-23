@@ -376,6 +376,7 @@ main{
   background-color: white;
   box-sizing: border-box;
   border-radius: 20px;
+  overflow: auto;
   
 }
 .main-ads-image{
@@ -383,4 +384,5 @@ main{
   height: 100%;
   box-sizing: border-box;
 }
+
 
